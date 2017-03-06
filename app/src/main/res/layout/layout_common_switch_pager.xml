@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <com.example.yajun.dragtoplayout.weight.LockedViewPager
+            android:id="@+id/switch_pager_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#aa111213" />
+
+        <RelativeLayout
+            android:id="@+id/switch_pager_title_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#aa111213" >
+
+            <TextView
+                android:id="@+id/switch_pager_title_count_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:drawablePadding="5dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="#ffeeeeee"
+                android:textSize="22.0sp" />
+
+            <TextView
+                android:id="@+id/switch_pager_title_delete_tv"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:enabled="true"
+                android:minWidth="50dip"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:text="删除"
+                android:layout_height="30dip" />
+
+        </RelativeLayout>
+
+    </FrameLayout>

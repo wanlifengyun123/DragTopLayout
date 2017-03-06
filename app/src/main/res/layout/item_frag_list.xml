@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@drawable/item_selector_bg"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_thumb"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:background="@drawable/ic_my_schedule"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我的行程"
+            android:textSize="18sp"
+            android:textColor="@color/app_body_text_1"/>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="我的行程"
+            android:textSize="16sp"
+            android:textColor="@color/app_body_text_2"/>
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="我的行程"
+            android:textSize="16sp"
+            android:textColor="@color/app_body_text_2"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
